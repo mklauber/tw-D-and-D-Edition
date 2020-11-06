@@ -1,0 +1,15 @@
+created: 20201105233118545
+modified: 20201105234526703
+tags: $:/tags/Macro
+title: $:/plugins/D&DTools/CreatureManager/macro
+
+\define attack(name, bonus:"0", dmg, type)
+<$button class="tc-btn-invisible tc-tiddlylink" actions="""
+<$wikify name="text" output="html" text="| !$(currentTiddler)$<br />$name$ |<|
+| ''Attack''<br /><$diceroll>1d20$bonus$</$diceroll> | ''Damage''<br /><$diceroll>$dmg$</$diceroll> $type$ |">
+<$action-createtiddler $basetitle="$:/chat/history/roll" tags="Roll" text=<<text>> />
+</$wikify>
+""" >
+<b>$name$</b>
+</$button>
+\end

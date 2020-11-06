@@ -1,0 +1,20 @@
+caption: Log
+created: 20201028165251325
+modified: 20201105234833773
+tags: $:/tags/SideBar
+title: $:/plugins/D&DTools/CreatureManager/Log
+
+<$button>
+Clear Log
+<$list filter="[all[tiddlers+shadows]prefix[$:/chat/history]]">
+<$action-deletetiddler $tiddler=<<currentTiddler>> />
+</$list>
+</$button>
+
+<div style="color:black;">
+<$list filter="[all[tiddlers+shadows]prefix[$:/chat/history]]">
+
+<$transclude mode="block" />
+
+</$list>
+</div>

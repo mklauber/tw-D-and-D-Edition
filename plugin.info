@@ -1,0 +1,25 @@
+{
+  "title": "$:/plugins/D&DTools/D&DEdition",
+  "author": "Matt Lauber",
+  "created": "2018-12-17T14:28:48.203Z",
+	"core-version": ">=5.1.22",
+  "description": "D&D Creature Manager",
+  "list": [],
+  "modified": "2018-12-17T19:06:41.385Z",
+  "plugin-priority": "1",
+  "plugin-type": "plugin",
+  "version": "1.0.0",
+  "tags": "[[D&D]]",
+  "source": "https://github.com/mklauber/tw-D-and-D-Edition.git",
+  "summary": "D&D 5e Creature Stat Block Templates"
+  "dependents": [
+    "$:/plugins/D&DTools/CreatureManager",
+    "$:/plugins/D&DTools/EncounterBuilder",
+    "$:/plugins/mklauber/in.js",
+    "$:/plugins/D&DTools/d20.js",
+    "$:/plugins/mklauber/shuffle",
+    "$:/plugins/D&DTools/Creatures",
+    "$:/plugins/D&DTools/Spells",
+    "$:/plugins/D&DTools/NPCNameGenerator"
+  ]
+}
