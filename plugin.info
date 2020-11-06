@@ -11,7 +11,7 @@
   "version": "1.0.1",
   "tags": "[[D&D]]",
   "source": "https://github.com/mklauber/tw-D-and-D-Edition.git",
-  "summary": "D&D Edition"
+  "summary": "D&D Edition",
   "dependents": [
     "$:/plugins/D&DTools/CreatureManager",
     "$:/plugins/D&DTools/EncounterBuilder",
