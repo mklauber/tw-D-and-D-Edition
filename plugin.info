@@ -8,10 +8,10 @@
   "modified": "2018-12-17T19:06:41.385Z",
   "plugin-priority": "1",
   "plugin-type": "plugin",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "tags": "[[D&D]]",
   "source": "https://github.com/mklauber/tw-D-and-D-Edition.git",
-  "summary": "D&D 5e Creature Stat Block Templates"
+  "summary": "D&D Edition"
   "dependents": [
     "$:/plugins/D&DTools/CreatureManager",
     "$:/plugins/D&DTools/EncounterBuilder",
