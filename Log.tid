@@ -1,6 +1,6 @@
 caption: Log
 created: 20201028165251325
-modified: 20201105234833773
+modified: 20210707185648359
 tags: $:/tags/SideBar
 title: $:/plugins/D&DTools/CreatureManager/Log
 
@@ -12,7 +12,7 @@ Clear Log
 </$button>
 
 <div style="color:black;">
-<$list filter="[all[tiddlers+shadows]prefix[$:/chat/history]]">
+<$list filter="[all[tiddlers+shadows]prefix[$:/chat/history]!sortan[]]">
 
 <$transclude mode="block" />
 
